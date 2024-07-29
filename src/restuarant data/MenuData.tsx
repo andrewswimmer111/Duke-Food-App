@@ -118,7 +118,7 @@ const MenuData: MenuData = {
       { item: "Roasted turkey", price: 11.89 },
       { item: "Beef brisket", price: 13.89 }
     ],    
-    Sprout: [
+    Not_Meat: [
       { item: "Yogurt Bar", price: 6.29 },
       { item: "Soy nugget", price: 6.99 },
       { item: "Salad bar", price: 8.89 },
