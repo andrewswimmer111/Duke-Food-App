@@ -1,5 +1,5 @@
 import { useState } from "react";
-import React, { CSSProperties } from 'react';
+import { CSSProperties } from 'react';
 
 interface Props {
   slides: { url: string }[]
@@ -104,7 +104,7 @@ function Slideshow({ slides }: Props) {
       ))}
       </div>
       <div style={dotContainerStyles}>
-        {slides.map((slide, slideIndex) => (
+        {slides.map((_, slideIndex) => (
           <div key={slideIndex} style={dotStyles} onClick={() => goToSlide(slideIndex)}>
             ●
           </div>
