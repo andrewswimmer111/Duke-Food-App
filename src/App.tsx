@@ -10,8 +10,6 @@ import { Helmet } from "react-helmet";
 
 function App() {
 
-  const apiUrl = `${import.meta.env.VITE_API_URL}`;
-
   const [page, setPage] = useState(0);
   const [user, setUser] = useState("");
 
