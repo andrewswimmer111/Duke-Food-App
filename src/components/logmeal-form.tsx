@@ -249,7 +249,7 @@ function LogMealForm({ user }: Props) {
             </div>
             <br />
               <div className="form-text fade-in-fast">
-                Note: Side prices are included in the entrees. Only select sides if you ordered additional sides. 
+                Note: Side prices are included in the entrees. Only select sides if you actually ordered additional sides. 
               </div>
             <strong>
               {" "}

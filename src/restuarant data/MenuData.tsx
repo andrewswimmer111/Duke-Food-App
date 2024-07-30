@@ -13,7 +13,7 @@ type MenuData = {
 
 const MenuData: MenuData = {
   "Il Forno": {
-    Pizza: [
+    "Pizza": [
       { item: "Vegan", price: 9.99 },
       { item: "Margherita", price: 9.99 },
       { item: "Four Cheese", price: 11.49 },
@@ -24,7 +24,7 @@ const MenuData: MenuData = {
       { item: "Pjs New Yorker", price: 11.49 },
       { item: "Rustic", price: 11.49 },
     ],
-    Pasta: [
+    "Pasta": [
       { item: "Pasta + Sauce only", price: 6.99 },
       { item: "Veggie", price: 9.89 },
       { item: "Custom", price: 11.89 },
@@ -36,18 +36,18 @@ const MenuData: MenuData = {
       { item: "Parma Rosa", price: 11.89 },
       { item: "Spicy Il Forno", price: 11.89 }
     ],
-    Wings: [
+    "Wings": [
       { item: "4 Boneless", price: 6.25 },
       { item: "5 Bone In", price: 6.25 },
       { item: "8 Boneless", price: 11.99 },
       { item: "10 Bone In", price: 11.99 },
     ],
-    Dessert: [
+    "Dessert": [
       { item: "Brownie", price: 2.89 },
       { item: "Cookie", price: 2.89 },
       { item: "Beignet Bites", price: 3.75 }
     ],
-    Drinks: [
+    "Drinks": [
       { item: "Topo Chico", price: 1.39 },
       { item: "AHA", price: 1.39 },
       { item: "Smart Water", price: 1.89 },
@@ -57,7 +57,7 @@ const MenuData: MenuData = {
   },
 
   "GSoy": {
-    Plates: [
+    "Plates": [
       { item: "California (Tofu)", price: 10.89 },
       { item: "Shanghai (Ginger Chicken)", price: 11.29 },
       { item: "Tokyo (Teryaki Chicken)", price: 11.39 },
@@ -67,22 +67,22 @@ const MenuData: MenuData = {
       { item: "Seoul (Beef)", price: 11.99 },
       { item: "Build Your Own Bowl", price: 11.99 },
     ],
-    Poke: [
+    "Poke": [
       { item: "Spicy Tuna", price: 13.59 },
       { item: "Salmon", price: 13.59 },
       { item: "Tuna", price: 13.59 }
     ],
-    Ramen: [
+    "Ramen": [
       { item: "Spicy Miso", price: 11.99 },
       { item: "Tonkotsu", price: 11.99 }
     ],
-    Snacks: [
+    "Small Dishes": [
       { item: "Spring Rolls", price: 2.49 },
       { item: "Veg Dumplings", price: 5.79 },
       { item: "Chicken Dumplings", price: 5.79 },
       { item: "Beef Dumplings", price: 5.79 }
     ],
-    Drinks: [
+    "Drinks": [
       { item: "San Pelligrino Sparkling Water", price: 2.19 },
       { item: "Izze", price: 2.19 },
       { item: "Aqua Panna Water", price: 2.59 },
@@ -91,13 +91,13 @@ const MenuData: MenuData = {
   },
 
   "JB's": {
-    Food: [
+    "Food": [
       { item: "Menu unavailable", price: 1.00 }
     ]
   },
 
   "Farmstead & Sprout": {
-    Sandwiches: [
+    "Farmstead Sandwiches": [
       { item: "Chicken shawarma", price: 9.99 },
       { item: "Salmon burger", price: 9.99 },
       { item: "Lamb gyro", price: 9.99 },
@@ -105,20 +105,20 @@ const MenuData: MenuData = {
       { item: "Chicken Caesar wrap", price: 9.99 },
       { item: "Two sliders", price: 11.49 }
     ],    
-    Entrees: [
+    "Farmstead Entrees": [
       { item: "Spanakopita", price: 11.89 },
       { item: "Honey garlic chicken", price: 11.89 },
       { item: "Bourbon garlic chicken", price: 11.89 },
       { item: "Turkey leg", price: 13.89 },
       { item: "Salmon", price: 15.99 }
     ],    
-    Meat: [
+    "Farmstead Meat": [
       { item: "Gyro", price: 11.89 },
       { item: "Ham", price: 11.89 },
       { item: "Roasted turkey", price: 11.89 },
       { item: "Beef brisket", price: 13.89 }
     ],    
-    Not_Meat: [
+    "Sprout Items": [
       { item: "Yogurt Bar", price: 6.29 },
       { item: "Soy nugget", price: 6.99 },
       { item: "Salad bar", price: 8.89 },
@@ -133,14 +133,14 @@ const MenuData: MenuData = {
       { item: "Three bean chili", price: 11.89 },
       { item: "Chickpea stew", price: 11.89 }
     ],    
-    Sides: [
+    "Sides": [
       { item: "Banana", price: 0.99 },
       { item: "Orange", price: 1.29 },
       { item: "Apple", price: 1.49 },
       { item: "Single slider", price: 3.49 },
       { item: "Other side", price: 3.49 }
     ],
-    Drinks: [
+    "Drinks": [
       { item: "Bottled water", price: 1.39 },
       { item: "Gold Peak sweet tea", price: 1.89 },
       { item: "Pellegrino flavored", price: 2.49 },
@@ -150,22 +150,22 @@ const MenuData: MenuData = {
   },
 
   "Cafe": {
-    Food: [
+    "Food": [
       { item: "Menu unavailable", price: 1.00 }
     ]
   },
 
   "Sazon": {
-    Food: [
+    "Food Items": [
       { item: "Arepa Bowl", price: 11.89 },
       { item: "Quesadilla", price: 11.89 },
       { item: "2 Tacos", price: 11.89 },
     ],
-    Dessert: [
+    "Dessert": [
       { item: "Cookie", price: 2.89 },
       { item: "Brownie", price: 2.89 }
     ],
-    Drinks: [
+    "Drinks": [
       { item: "AHA", price: 1.39 },
       { item: "Topo Chico", price: 1.39 },
       { item: "Bottled water", price: 1.89 },
@@ -176,7 +176,7 @@ const MenuData: MenuData = {
   },
 
   "Skillet": {
-    Lunch: [
+    "Lunch": [
       { item: "Three sides platter", price: 8.99 },
       { item: "Pulled pork sandwich", price: 10.29 },
       { item: "Fried egg BLT", price: 10.49 },
@@ -192,7 +192,7 @@ const MenuData: MenuData = {
       { item: "Catfish", price: 14.99 },
       { item: "Smoked beef brisket", price: 16.09 }
     ],
-    LunchSides: [
+    "Lunch Sides": [
       { item: "Toast", price: 1.19 },
       { item: "Brioche roll", price: 1.59 },
       { item: "Biscuit", price: 1.99 },
@@ -207,7 +207,7 @@ const MenuData: MenuData = {
       { item: "Potato wedges", price: 3.19 },
       { item: "Mac and cheese", price: 3.19 }
     ],
-    Breakfast: [
+    "Breakfast": [
       { item: "Biscuit egg and cheese", price: 3.99 },
       { item: "Biscuit with protein", price: 5.49 },
       { item: "Biscuit egg cheese with protein", price: 6.49 },
@@ -219,7 +219,7 @@ const MenuData: MenuData = {
       { item: "Chicken and waffles", price: 10.49 },
       { item: "Omelette", price: 10.59 }
     ],    
-    BreakfastSides: [
+    "Breakfast Sides": [
       { item: "Banana", price: 0.99 },
       { item: "Orange", price: 1.29 },
       { item: "Apple", price: 1.49 },
@@ -234,7 +234,7 @@ const MenuData: MenuData = {
       { item: "Tater tots", price: 3.19 },
       { item: "Yogurt", price: 3.19 }
     ],
-    Drinks: [
+    "Drinks": [
       { item: "Bottled water", price: 1.59 },
       { item: "Smartwater", price: 1.89 },
       { item: "Juice", price: 2.79 },
@@ -242,7 +242,7 @@ const MenuData: MenuData = {
       { item: "Milkies", price: 3.29 },
       { item: "Body Armour", price: 4.19 }
     ],
-    Desserts: [
+    "Desserts": [
       { item: "Apple cobbler", price: 4.99 },
       { item: "Banana pudding", price: 4.99 },
       { item: "Chocolate pie", price: 4.99 }
@@ -250,22 +250,22 @@ const MenuData: MenuData = {
   },
 
   "Tandoor": {
-    Bread: [
+    "Bread": [
       { item: "Naan", price: 2.49 },
       { item: "Garlic naan", price: 3.79 }
     ],
-    Appetizers: [
+    "Appetizers": [
       { item: "Vegetables samosa", price: 4.99 },
       { item: "Sada dosai", price: 8.59 },
       { item: "Masala dosa", price: 10.29 },
       { item: "Vegetable dosai", price: 10.29 },
       { item: "Chicken dosai", price: 11.49 }
     ],
-    Combos: [
+    "Combos": [
       { item: "Vegetable", price: 10.89 },
       { item: "Non-vegetable", price: 11.89 }
     ],
-    Desserts: [
+    "Desserts": [
       { item: "Mango lassi", price: 3.99 },
       { item: "Gulab jamun", price: 4.25 },
       { item: "Kheer", price: 4.25 }
@@ -273,7 +273,7 @@ const MenuData: MenuData = {
   },
 
   "Kraft": {
-    Appetizers: [
+    "Appetizers": [
       { item: "Pickle chips", price: 6.49 },
       { item: "Onion rings", price: 6.99 },
       { item: "Cheese curds", price: 7.99 },
@@ -283,7 +283,7 @@ const MenuData: MenuData = {
       { item: "Chicken tenders", price: 9.99 },
       { item: "Vegan tenders", price: 11.99 }
     ],
-    Salads: [
+    "Salads": [
       { item: "Mixed arugula", price: 7.99 },
       { item: "Buffalo bacon ranch", price: 11.99 },
       { item: "Fried chicken", price: 12.49 },
@@ -291,7 +291,7 @@ const MenuData: MenuData = {
       { item: "Southwest chicken cob", price: 12.99 },
       { item: "Caribbean fish", price: 14.99 }
     ],
-    Handhelds: [
+    "Handhelds": [
       { item: "Grilled cheese", price: 5.00 },
       { item: "Quesadilla", price: 9.99 },
       { item: "Barbecue chicken sandwich", price: 9.99 },
@@ -301,7 +301,7 @@ const MenuData: MenuData = {
       { item: "Grilled mahi mahi fish wrap", price: 14.49 },
       { item: "Flank steak French dip", price: 14.99 }
     ],
-    Burgers: [
+    "Burgers": [
       { item: "Devil's Krafthouse", price: 11.99 },
       { item: "Queso", price: 11.99 },
       { item: "Brecky", price: 11.99 },
@@ -310,7 +310,7 @@ const MenuData: MenuData = {
       { item: "Barbecue bacon", price: 14.99 },
       { item: "Mushroom and Swiss", price: 14.99 }
     ],
-    Others: [
+    "Others": [
       { item: "Cookie", price: 2.59 },
       { item: "Brownie", price: 3.50 },
       { item: "Fruit", price: 3.99 },
@@ -321,7 +321,7 @@ const MenuData: MenuData = {
       { item: "Ice cream sandwich", price: 6.99 },
       { item: "Sweet potato tots", price: 6.99 }
     ],
-    Drinks: [
+    "Drinks": [
       { item: "Natalie's juices", price: 1.89 },
       { item: "San Pellegrino sparkling water", price: 1.99 },
       { item: "Mexican Coke", price: 2.39 },
@@ -340,10 +340,89 @@ const MenuData: MenuData = {
   },
 
   "McDonalds": {
-    Food: [
-      { item: "Menu unavailable", price: 1.00 }
+    "Entrees": [
+      { item: "Hamburger", price: 1.99 },
+      { item: "Cheeseburger", price: 2.29 },
+      { item: "McChicken", price: 2.79 },
+      { item: "Double Cheeseburger", price: 3.49 },
+      { item: "Bacon Cajun Ranch McCrispy", price: 5.29 },
+      { item: "Filet-O-Fish", price: 4.99 },
+      { item: "Triple Cheeseburger", price: 4.79 },
+      { item: "6 Piece McNuggets", price: 4.29 },
+      { item: "Big Mac", price: 5.99 },
+      { item: "Double Filet-O-Fish", price: 5.99 },
+      { item: "McRib", price: 6.19 },
+      { item: "10 Piece McNuggets", price: 6.19 },
+      { item: "Quarter Pounder with Cheese", price: 6.29 },
+      { item: "Bacon Cajun Ranch Deluxe McCrispy", price: 6.69 },
+      { item: "Cheesy Jalapeno Bacon PPC", price: 7.19 },
+      { item: "Double Quarter Pounder with Cheese", price: 7.19 },
+      { item: "Double Cheesy Jalapeno Bacon PPC", price: 7.79 }
+    ],
+    "Lunch Side": [
+      { item: "Medium Fry", price: 3.49 },
+      { item: "Large Fry", price: 3.99 }
+    ],
+    "Coffee": [
+      { item: "Espresso", price: 1.79 },
+      { item: "Small Coffee", price: 1.99 },
+      { item: "Medium Coffee", price: 2.39 },
+      { item: "Large Coffee", price: 2.69 },
+      { item: "Small Hot Chocolate", price: 3.39 },
+      { item: "Iced Coffee", price: 3.29 },
+      { item: "Americano", price: 3.49 },
+      { item: "Cappuccino", price: 3.49 },
+      { item: "Caramel Mocha", price: 3.49 },
+      { item: "Iced Caramel Mocha", price: 3.49 },
+      { item: "Iced Latte", price: 3.49 },
+      { item: "Iced Mocha", price: 3.49 },
+      { item: "Latte", price: 3.49 },
+      { item: "Mocha", price: 3.49 },
+      { item: "Caramel Frappe", price: 3.49 },
+      { item: "Mocha Frappe", price: 3.49 },
+      { item: "Medium Hot Chocolate", price: 3.69 },
+      { item: "Large Hot Chocolate", price: 4.39 }
+    ],
+    "Other Drinks": [
+      { item: "Apple Juice", price: 1.59 },
+      { item: "Small Lemonade", price: 1.89 },
+      { item: "Blue Raspberry Frozen", price: 1.99 },
+      { item: "Coca-Cola Frozen", price: 1.99 },
+      { item: "Wild Cherry Frozen", price: 1.99 },
+      { item: "Medium Lemonade", price: 2.19 },
+      { item: "Small Fountain Drink", price: 1.69 },
+      { item: "Medium Fountain Drink", price: 1.99 },
+      { item: "Dasani", price: 1.99 },
+      { item: "Large Fountain Drink", price: 2.49 },
+      { item: "Large Lemonade", price: 2.59 },
+      { item: "Small OJ", price: 2.89 },
+      { item: "Medium OJ", price: 2.89 },
+      { item: "Large OJ", price: 3.49 },
+      { item: "Mango Pineapple Smoothie", price: 4.69 },
+      { item: "Strawberry Banana Smoothie", price: 4.69 }
+    ],
+    "Desserts": [
+      { item: "One Cookie", price: 0.89 },
+      { item: "Two Cookies", price: 1.39 },
+      { item: "Apple Pie", price: 1.99 },
+      { item: "Plain Sundae", price: 1.99 },
+      { item: "Strawberry & Creme Pie", price: 1.99 },
+      { item: "One Holiday Creme Pie", price: 1.99 },
+      { item: "Cookies and Cream Pie", price: 1.99 },
+      { item: "Two Strawberry & Creme Pies", price: 2.99 },
+      { item: "Two Apple Pies", price: 2.99 },
+      { item: "Caramel Sundae", price: 2.99 },
+      { item: "Hot Fudge Sundae", price: 2.99 },
+      { item: "Two Cookies and Cream Pies", price: 2.99 },
+      { item: "Grandma McFlurry", price: 3.79 },
+      { item: "Kit Kat Banana Split McFlurry", price: 3.79 },
+      { item: "Oreo McFlurry", price: 3.79 },
+      { item: "M&M McFlurry", price: 3.79 },
+      { item: "Chocolate Shake", price: 3.99 },
+      { item: "Strawberry Shake", price: 3.99 },
+      { item: "Vanilla Shake", price: 3.99 }
     ]
-  },
+  },  
 
   "Beyu Blue": {
     Food: [
@@ -352,11 +431,95 @@ const MenuData: MenuData = {
   },
 
   "Gothic Grill": {
-    Food: [
-      { item: "Menu unavailable", price: 1.00 }
+    "Appetizers and Small Plates": [
+      { item: "Tortilla Chips with Guacamole", price: 3.99 },
+      { item: "Mozzarella Sticks", price: 5.99 },
+      { item: "Sweet Potato Waffle Fries", price: 5.99 },
+      { item: "Crispy Cauliflower", price: 5.99 },
+      { item: "Zucchini Fries", price: 6.49 },
+      { item: "Wings (6)", price: 7.99 },
+      { item: "Buffalo Chicken Mac and Cheese", price: 8.99 },
+      { item: "Chili Cheese Nachos", price: 9.99 },
+      { item: "Fried Calamari", price: 9.99 },
+      { item: "Chicken Tenders", price: 9.99 },
+      { item: "Fried Shrimp Basket", price: 12.99 },
+      { item: "Soup Cup or Bowl", price: 6.00 },
+      { item: "Caesar Salad", price: 9.99 },
+      { item: "Chopped Salad", price: 9.99 },
+      { item: "Greek Salad", price: 10.99 },
+      { item: "Caprese Grilled Chicken Salad", price: 11.99 },
+      { item: "Crispy Buffalo Chicken Salad", price: 12.99 },
+      { item: "Grilled Mahi Mahi Salad", price: 14.99 }
+    ],
+    "Tacos and Sandwiches": [
+      { item: "Taco Tuesday Special", price: 2.50 },
+      { item: "Pulled Chicken Tacos", price: 6.99 },
+      { item: "Vegged Taco", price: 6.99 },
+      { item: "Blackened Mahi Tacos", price: 7.99 },
+      { item: "Calamari Tacos", price: 7.99 },
+      { item: "Crispy Flounder Tacos", price: 7.99 },
+      { item: "Crispy Shrimp Tacos", price: 7.99 },
+      { item: "Steak Tacos", price: 7.99 },
+      { item: "BLTA", price: 9.99 },
+      { item: "Buffalo Chicken Wrap", price: 9.99 },
+      { item: "Chicken Caesar Wrap", price: 9.99 },
+      { item: "Chicken Philly", price: 10.99 },
+      { item: "Chicken Ciabatta", price: 10.99 },
+      { item: "Famous Thrive Chicken Sandwich", price: 11.99 },
+      { item: "Buffalo Shrimp Wrap", price: 11.99 },
+      { item: "Calabash Style Fried Fish Sandwich", price: 12.99 }
+    ],
+    "Burgers and Hot Dogs": [
+      { item: "Gothic Smash Burger", price: 9.99 },
+      { item: "Build Your Own Burger", price: 9.99 },
+      { item: "Double Patty Melt Burger", price: 14.99 },
+      { item: "Duke Blue Cheese Burger", price: 14.99 },
+      { item: "The NC Burger", price: 14.99 },
+      { item: "Gothic $5 Meal", price: 5.00 },
+      { item: "Pauly Dogs", price: 8.99 },
+      { item: "Tex Mexi Dog", price: 8.99 },
+      { item: "Chippy Dog", price: 9.99 },
+      { item: "Daddy Mac", price: 10.99 }
+    ],
+    "Pizzas": [
+      { item: "Cheese Pizza", price: 9.49 },
+      { item: "Blanco Pizza", price: 11.49 },
+      { item: "Build Your Own Pizza", price: 11.49 },
+      { item: "Cali Chicken Pizza", price: 11.49 },
+      { item: "Island Pizza", price: 11.49 },
+      { item: "Meateater Pizza", price: 11.49 },
+      { item: "Veg G Pizza", price: 11.49 },
+      { item: "BBQ Chicken Pizza", price: 11.49 }
+    ],
+    "Sides": [
+      { item: "Fries", price: 3.99 },
+      { item: "Mac and Cheese Cup", price: 3.99 },
+      { item: "Chips", price: 3.99 },
+      { item: "Fresh Fruit", price: 3.99 },
+      { item: "Side Salad", price: 3.99 }
+    ],
+    "Beverages": [
+      { item: "Fountain Beverage", price: 1.99 },
+      { item: "Gold Peak", price: 1.89 },
+      { item: "Minute Maid", price: 2.79 },
+      { item: "Peace Tea", price: 1.89 },
+      { item: "San Pellegrino", price: 1.99 },
+      { item: "Smart Water 1 Liter", price: 3.29 },
+      { item: "Smart Water 20 oz", price: 1.89 },
+      { item: "Beverage Special", price: 6.00 },
+      { item: "Bottled Soda 20 oz", price: 2.25 },
+      { item: "Calypso", price: 3.09 },
+      { item: "Core Power", price: 5.99 },
+      { item: "Fairlife Milk", price: 3.29 },
+      { item: "Liquid Death", price: 2.99 },
+      { item: "Powerade", price: 2.09 },
+      { item: "Prime", price: 2.99 },
+      { item: "Vitamin Water", price: 2.99 },
+      { item: "Yerba Mate", price: 4.39 }
     ]
   },
-
+  
+  
   "It's Thyme": {
     Food: [
       { item: "Menu unavailable", price: 1.00 }
