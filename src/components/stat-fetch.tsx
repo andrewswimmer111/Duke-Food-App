@@ -88,28 +88,28 @@ function StatFetch({ username }: Props) {
 
   // For slideshow
   const slides = [
-    { url: "resources/WU.png" },
-    { url: "resources/chapel.png" },
-    { url: "resources/Bostock.png" },
-    { url: "resources/East.png" },
-    { url: "resources/Football.png" },
-    { url: "resources/Gardens.png" },
-    { url: "resources/Kville.png" },
-    { url: "resources/Bridge.png" },
-    { url: "resources/Trinity.png" },
+    { url: "/WU.png" },
+    { url: "/chapel.png" },
+    { url: "/Bostock.png" },
+    { url: "/East.png" },
+    { url: "/Football.png" },
+    { url: "/Gardens.png" },
+    { url: "/Kville.png" },
+    { url: "/Bridge.png" },
+    { url: "/Trinity.png" },
   ];
 
-  const [link, setLink] = useState("resources/sad-cat.png");
+  const [link, setLink] = useState("/sad-cat.png");
 
   useEffect(() => {
     if (topCampus === "Brodhead Center (WU)") {
-      setLink('resources/wu5.png');
+      setLink('/wu5.png');
     } else if (topCampus === "Bryan Center") {
-      setLink('resources/bc.png');
+      setLink('/bc.png');
     } else if (topCampus === "Other on campus") {
-      setLink('resources/freeman.png');
+      setLink('/freeman.png');
     } else {
-      setLink('resources/mr-tokyo.png');
+      setLink('/mr-tokyo.png');
     }
   }, [topCampus]);
 
