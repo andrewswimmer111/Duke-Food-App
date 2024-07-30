@@ -24,7 +24,7 @@ function BackBtn({ onClick }: Props) {
         onMouseLeave={handleMouseLeave}
         style={{
             margin: "10px", 
-            backgroundImage: isHovered ? "url(/resources/sad-cat.png)" : "none",
+            backgroundImage: isHovered ? "url(/sad-cat.png)" : "none",
             backgroundSize: "contain",
             backgroundPosition: "center",
             color: isHovered ? "transparent" : "black",

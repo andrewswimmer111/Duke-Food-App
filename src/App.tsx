@@ -60,16 +60,16 @@ function App() {
   return (
   <>
     <Helmet>
-      <link rel="preload" href="/resources/chapel.png" as="image" />
-      <link rel="preload" href="/resources/WU.png" as="image" />
-      <link rel="preload" href="resources/chapel.png" as="image" />
-      <link rel="preload" href="resources/Bostock.png" as="image" />
-      <link rel="preload" href="resources/East.png" as="image" />
-      <link rel="preload" href="resources/Football.png" as="image" />
-      <link rel="preload" href="resources/Gardens.png" as="image" />
-      <link rel="preload" href="resources/Kville.png" as="image" />
-      <link rel="preload" href="resources/Bridge.png" as="image" />
-      <link rel="preload" href="resources/Trinity.png" as="image" />
+      <link rel="preload" href="/chapel.png" as="image" />
+      <link rel="preload" href="/WU.png" as="image" />
+      <link rel="preload" href="/chapel.png" as="image" />
+      <link rel="preload" href="/Bostock.png" as="image" />
+      <link rel="preload" href="/East.png" as="image" />
+      <link rel="preload" href="/Football.png" as="image" />
+      <link rel="preload" href="/Gardens.png" as="image" />
+      <link rel="preload" href="/Kville.png" as="image" />
+      <link rel="preload" href="/Bridge.png" as="image" />
+      <link rel="preload" href="/Trinity.png" as="image" />
       
       
     </Helmet>

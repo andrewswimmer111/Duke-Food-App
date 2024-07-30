@@ -29,7 +29,7 @@
 
 .LoginForm {
   flex-grow: 1;
-  background-image: url(/resources/WU.png);
+  background-image: url(/WU.png);
   background-size: 115%;
   background-position: left;
   height: calc(100vh - 100px);
@@ -42,7 +42,7 @@
 
 .SignupForm {
   flex-grow: 1;
-  background-image: url(/resources/chapel.png);
+  background-image: url(/chapel.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
