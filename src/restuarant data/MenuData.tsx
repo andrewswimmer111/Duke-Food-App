@@ -151,9 +151,74 @@ const MenuData: MenuData = {
 
   "Cafe": {
     "Food": [
-      { item: "Menu unavailable", price: 1.00 }
+      { item: "Egg & Cheese Bagel", price: 4.99 },
+      { item: "Greek Scrambler", price: 6.49 },
+      { item: "Bacon, Egg, and Cheese Croissant", price: 6.49 },
+      { item: "Falafel", price: 6.99 },
+      { item: "Southwest Turkey Wrap", price: 8.79 },
+      { item: "Chicken Salad Croissant", price: 8.49 },
+      { item: "Grilled Ratatouille Panini", price: 9.49 },
+      { item: "Chicken Pesto", price: 9.99 },
+      { item: "Chicken Shawarma", price: 9.09 },
+      { item: "French Beef Panini", price: 10.59 },
+      { item: "Chicken Parmesan Panini", price: 10.09 },
+      { item: "Southwest Chicken Bowl", price: 10.69 },
+      { item: "Salmon Bowl", price: 12.99 }
+    ],
+    "Pastries & Desserts": [ 
+      { item: "Chocolate Chip Scone", price: 3.99 },
+      { item: "Pumpkin Sweet Bread", price: 3.99 },
+      { item: "Cookie", price: 3.99 },
+      { item: "Muffin", price: 3.99 },
+      { item: "Sweet Bread", price: 3.99 },
+      { item: "Crumb Cake", price: 3.99 },
+      { item: "Brownies", price: 3.99 },
+      { item: "Cupcake", price: 4.99 },
+      { item: "Slice of Cake", price: 5.99 },
+      { item: "Quiche Lorraine Slice", price: 6.99 },
+      { item: "Broccoli Quiche Slice", price: 6.99 }
+    ],
+    "Gelato Bar": [
+      { item: "Gelato or Sorbetto 1 Scoop", price: 5.09 },
+      { item: "Gelato or Sorbetto 2 Scoop", price: 6.89 },
+      { item: "Gelato or Sorbetto 3 Scoop", price: 8.89 }
+    ],
+    "Espresso Bar": [
+      { item: "Hot Tea", price: 2.49 },
+      { item: "House Brewed Coffee", price: 2.99 },
+      { item: "Large Milk", price: 2.99 },
+      { item: "Cortado", price: 2.99 },
+      { item: "Iced Coffee", price: 3.29 },
+      { item: "Americano", price: 3.89 },
+      { item: "Cappuccino", price: 4.79 },
+      { item: "Cafe Latte", price: 4.79 },
+      { item: "Organic Earl Grey Latte", price: 4.99 },
+      { item: "Organic Masala Chai", price: 4.99 },
+      { item: "Vietnamese Coffee", price: 4.99 },
+      { item: "Caramel Leche", price: 5.29 },
+      { item: "Organic Matcha Latte", price: 5.29 },
+      { item: "Mocha Latte", price: 5.49 },
+      { item: "Frappe", price: 5.99 }
+    ],
+    "Smoothies & Fresh Juices": [ 
+      { item: "Apple Juice", price: 5.99 },
+      { item: "Carrot Juice", price: 5.99 },
+      { item: "Green Monster", price: 5.99 },
+      { item: "Healthy Boost", price: 5.99 },
+      { item: "Orange Juice", price: 5.99 },
+      { item: "Strawberry Smoothie", price: 5.99 },
+      { item: "Mango Smoothie", price: 5.99 }
+    ],
+    "Crepes": [ 
+      { item: "Cinnamon Sugar Crepe", price: 5.99 },
+      { item: "Chocolate Crepe", price: 7.49 },
+      { item: "Apple and Brie Crepe", price: 8.69 },
+      { item: "Croque Monsieur Crepe", price: 8.69 },
+      { item: "Egg Florentine", price: 8.69 },
+      { item: "Chicken Pesto Crepe", price: 9.99 }
     ]
   },
+
 
   "Sazon": {
     "Food Items": [
