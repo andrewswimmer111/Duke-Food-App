@@ -40,8 +40,6 @@ function StatFetch({ username }: Props) {
 
   useEffect(() => {
 
-    console.log("fetching data for time ", optionToDateMap[selectedOption])
-
     const fetchData = async () => {
       try {
         const dateFilterValue = optionToDateMap[selectedOption];
