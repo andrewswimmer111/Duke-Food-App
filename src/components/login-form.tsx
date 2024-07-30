@@ -97,6 +97,12 @@ function LoginForm( {setPage, setUser}: Props ) {
             Submit{" "}
           </button>
           <div className="form-text" style={{color: "darkred"}}> {message} </div>
+          <div className="line" />
+  
+          <div className="form-text" > 
+            <div> Note: </div>
+            If nothing happens when you try to login, the backend is likely experiencing issues which should resolve themselves in an hour or two. Thanks for your patience. 
+          </div>
         </form>
       </div>
     </div>

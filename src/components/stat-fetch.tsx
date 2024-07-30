@@ -223,7 +223,7 @@ function StatFetch({ username }: Props) {
               <ol style={{ textAlign: "left" }}>
                 {topItems.map((item, index) => (
                   <li key={index}>
-                    The {item.item} {item.category} from {item.restaurant}:
+                    The {item.item} from {item.restaurant}:
                     <div> ordered {item.count} times</div>
                     <div style={{ marginBottom: "15px" }} />
                   </li>

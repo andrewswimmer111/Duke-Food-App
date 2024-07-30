@@ -14,33 +14,33 @@ type MenuData = {
 const MenuData: MenuData = {
   "Il Forno": {
     "Pizza": [
-      { item: "Vegan", price: 9.99 },
-      { item: "Margherita", price: 9.99 },
-      { item: "Four Cheese", price: 11.49 },
-      { item: "Southwest Chicken", price: 11.49 },
-      { item: "Buffalo Chicken", price: 11.49 },
-      { item: "Harvest", price: 11.49 },
-      { item: "Kyle's BBQ", price: 11.49 },
-      { item: "Pjs New Yorker", price: 11.49 },
-      { item: "Rustic", price: 11.49 },
+      { item: "Vegan Pizza", price: 9.99 },
+      { item: "Margherita Pizza", price: 9.99 },
+      { item: "Four Cheese Pizza", price: 11.49 },
+      { item: "Southwest Chicken Pizza", price: 11.49 },
+      { item: "Buffalo Chicken Pizza", price: 11.49 },
+      { item: "Harvest Pizza", price: 11.49 },
+      { item: "Kyle's BBQ Pizza", price: 11.49 },
+      { item: "Pjs New Yorker Pizza", price: 11.49 },
+      { item: "Rustic Pizza", price: 11.49 },
     ],
     "Pasta": [
       { item: "Pasta + Sauce only", price: 6.99 },
-      { item: "Veggie", price: 9.89 },
-      { item: "Custom", price: 11.89 },
-      { item: "Chicken Alfredo", price: 11.89 },
-      { item: "Garden Pesto", price: 11.89 },
-      { item: "Pasta Romano", price: 11.89 },
-      { item: "Meatballs & Spaghetti", price: 11.89 },
-      { item: "Chicken Basil Pesto", price: 11.89 },
-      { item: "Parma Rosa", price: 11.89 },
-      { item: "Spicy Il Forno", price: 11.89 }
+      { item: "Veggie Pasta", price: 9.89 },
+      { item: "Custom Pasta", price: 11.89 },
+      { item: "Chicken Alfredo Pasta", price: 11.89 },
+      { item: "Garden Pesto Pasta", price: 11.89 },
+      { item: "Pasta Romano Pasta", price: 11.89 },
+      { item: "Meatballs & Spaghetti Pasta", price: 11.89 },
+      { item: "Chicken Basil Pesto Pasta", price: 11.89 },
+      { item: "Parma Rosa Pasta", price: 11.89 },
+      { item: "Spicy Il Forno Pasta", price: 11.89 }
     ],
     "Wings": [
-      { item: "4 Boneless", price: 6.25 },
-      { item: "5 Bone In", price: 6.25 },
-      { item: "8 Boneless", price: 11.99 },
-      { item: "10 Bone In", price: 11.99 },
+      { item: "4 Boneless Wings", price: 6.25 },
+      { item: "5 Bone In Wings", price: 6.25 },
+      { item: "8 Boneless Wings", price: 11.99 },
+      { item: "10 Bone In Wings", price: 11.99 },
     ],
     "Dessert": [
       { item: "Brownie", price: 2.89 },
@@ -58,23 +58,23 @@ const MenuData: MenuData = {
 
   "GSoy": {
     "Plates": [
-      { item: "California (Tofu)", price: 10.89 },
-      { item: "Shanghai (Ginger Chicken)", price: 11.29 },
-      { item: "Tokyo (Teryaki Chicken)", price: 11.39 },
-      { item: "Hong Kong (Pork)", price: 11.39 },
+      { item: "California (Tofu) Bowl", price: 10.89 },
+      { item: "Shanghai (Ginger Chicken) Bowl", price: 11.29 },
+      { item: "Tokyo (Teryaki Chicken) Bowl", price: 11.39 },
+      { item: "Hong Kong (Pork) Bowl", price: 11.39 },
       { item: "Thai Curry", price: 11.89 },
       { item: "Pad Thai", price: 11.89 },
-      { item: "Seoul (Beef)", price: 11.99 },
+      { item: "Seoul (Beef) Bowl", price: 11.99 },
       { item: "Build Your Own Bowl", price: 11.99 },
     ],
     "Poke": [
-      { item: "Spicy Tuna", price: 13.59 },
-      { item: "Salmon", price: 13.59 },
-      { item: "Tuna", price: 13.59 }
+      { item: "Spicy Tuna Poke", price: 13.59 },
+      { item: "Salmon Poke", price: 13.59 },
+      { item: "Tuna Poke", price: 13.59 }
     ],
     "Ramen": [
-      { item: "Spicy Miso", price: 11.99 },
-      { item: "Tonkotsu", price: 11.99 }
+      { item: "Spicy Miso Ramen", price: 11.99 },
+      { item: "Tonkotsu Ramen", price: 11.99 }
     ],
     "Small Dishes": [
       { item: "Spring Rolls", price: 2.49 },
