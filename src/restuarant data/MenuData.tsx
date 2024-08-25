@@ -91,9 +91,25 @@ const MenuData: MenuData = {
   },
 
   "JB's": {
-    "Food": [
-      { item: "Menu unavailable", price: 1.00 }
-    ]
+    "Meat": [
+      { item: "London 5oz", price: 13.99 },
+      { item: "London 8oz", price: 15.99 },
+      { item: "Prime Rib 5oz", price: 18.99 },
+      { item: "Prime Rib 8oz", price: 25.99 },
+      { item: "Rosemary Rubbed Pork Loin 5oz", price: 10.99 },
+      { item: "Rosemary Rubbed Pork Loin 8oz", price: 12.99 },
+      { item: "BBQ Ribs Rack", price: 13.99 },
+      { item: "Quarter Flame Roasted Chicken", price: 11.99 },
+      { item: "Half Flame Roasted Chicken", price: 14.49 },
+      { item: "Boneless Chicken Breast", price: 11.99 },
+      { item: "Paella Mixta", price: 13.99 }
+    ],
+    "Seafood": [
+      { item: "Shrimp Skewer", price: 14.99 },
+      { item: "Salmon Filet 6oz", price: 15.99 },
+      { item: "Mahi Mahi 6oz", price: 15.99 },
+      { item: "Yellow Fin Tuna 6oz", price: 14.99 }
+    ],
   },
 
   "Farmstead & Sprout": {

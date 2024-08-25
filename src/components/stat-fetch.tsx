@@ -53,6 +53,7 @@ function StatFetch({ username }: Props) {
 
           setNumItems(topItems.length);
           setTopItems(topItems);
+          console.log(topItems);
           setNumRestaurants(topRestaurant.length);
           setTopRestaurants(topRestaurant);
           setTopCampus(topLocation[0].topLocation[0].location);
@@ -257,8 +258,8 @@ function StatFetch({ username }: Props) {
               <img 
                 src={link} 
                 style={{
-                  width: '100%',
-                  height: '100%',
+                  width: '80%',
+                  height: '80%',
                   marginTop: '20px',
                   objectFit: 'contain'
                 }}></img>
