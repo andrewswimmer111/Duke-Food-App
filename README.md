@@ -1,6 +1,2 @@
 # Duke-Food-App
-Web app to allow Duke students to track their eating habits and food point usage. Really bad code but a good learning process.
-
-The website was built using React, TypeScript, and Vite. It makes calls to an express backend, which interacts with a MongoDB database. 
-
-Originally did not plan to use git for this project, as the code contains a lot of bad practices, but it seems git is one way to deploy this website onto AWS Amplify. 
+Web app to allow Duke students to track their eating habits and food point usage. The website was built using React, TypeScript, and Vite. It makes calls to an Express.js backend, which interacts with a MongoDB database. Because this project was my introduction into any sort of development, the code contains many bad practices. I plan to remake the site in the future using a relational database, and also upgrade both the meal logging process and the meal stats presentation. 
