@@ -268,6 +268,9 @@ function LogMealForm({ user }: Props) {
           {mealLogged ? (
             <div className="alert">
               Meal logged successfully! Return to stats page. 
+              <br />
+              If this is your first time logging a meal, please be patient. 
+              Your meal may not show up in the stats until you log one more meal. 
             </div>
           ) : null}
         </div>

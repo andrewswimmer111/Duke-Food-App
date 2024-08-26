@@ -314,9 +314,10 @@ function StatFetch({ username }: Props) {
           }}
         >
           <h2>
-            Hey {username}. You don't have any logged meals for this time period yet.
+            Hey {username}. You don't have any logged meals for this time period yet. 
+            <br/>
+            If you think you should, try logging one more meal just to make sure.
           </h2>
-          <br />
           <div style={{ width: '40%', display: 'flex', alignItems: 'center' }}>
             <div style={{ marginRight: '10px', whiteSpace: 'nowrap' }}>Time range: </div>
             <select className="form-select" aria-label="Default select example" onChange={handleDateChange} value={selectedOption}>
