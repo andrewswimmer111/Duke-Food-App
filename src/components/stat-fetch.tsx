@@ -170,7 +170,6 @@ function StatFetch({ username }: Props) {
     else {setFadeClass("")}
   }, [isFlipped]);
 
-
   return (
     <>
       <br />
@@ -224,8 +223,9 @@ function StatFetch({ username }: Props) {
               <ol style={{ textAlign: "left" }}>
                 {topItems.map((item, index) => (
                   <li key={index}>
-                    The {item.item} from {item.restaurant}:
-                    <div> ordered {item.count} times</div>
+                    <span>
+                      The {item.item} from {item.restaurant}: ordered {item.count} times
+                    </span>
                     <div style={{ marginBottom: "15px" }} />
                   </li>
                 ))}
